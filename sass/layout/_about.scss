@@ -1,0 +1,13 @@
+.about {
+  padding-bottom: 94px;
+}
+
+.about-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.about-list__item:not(:last-child) {
+  margin-right: 30px;
+}
